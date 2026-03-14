@@ -1,0 +1,85 @@
+# 📊 Store Sales Dataset – Exploratory Analysis
+
+## 1. Purpose
+We examined data from 827 stores to understand what drives sales performance. The analysis focused on:
+- Store size
+- Inventory
+- Customer traffic
+- Efficiency
+
+---
+
+## 2. Data Snapshot
+**Variables included:**  
+`StoreID`, `StoreArea`, `ItemsAvailable`, `DailyCustomerCount`, `StoreSales`  
+
+**Data quality:** Clean — no missing values, duplicates, or formatting issues.
+
+---
+
+## 3. Sales Distribution
+- Sales are highly uneven across stores.
+- A few stores earn far above the average.
+- The weakest stores fall well below the mean.
+
+➡️ **Insight:** Sales performance is not evenly spread — some stores dominate while others lag.
+
+---
+
+## 4. Customer Count vs Sales
+- Stores with the most customers do not necessarily generate the highest revenue.
+- Stores with fewer customers sometimes achieve strong sales.
+
+➡️ **Insight:** Traffic volume alone does not explain sales differences.
+
+---
+
+## 5. Store Size and Sales
+**Grouping stores by area:**  
+
+| Store Size | Area (sq yards) | Total Sales |
+|------------|----------------|------------|
+| Small      | 775–1200       | ~7M        |
+| Medium     | 1201–1700      | ~34.8M     |
+| Large      | 1701–2229      | ~11M       |
+
+➡️ **Insight:** Medium-sized stores outperform both small and large stores in total revenue.
+
+---
+
+## 6. Inventory vs Sales
+- Stores with the largest or smallest item counts do not consistently align with highest or lowest sales.
+
+➡️ **Insight:** Inventory size alone is not a reliable predictor of revenue.
+
+---
+
+## 7. Customer Traffic by Store Size
+| Store Size | Average Customers/Day |
+|------------|---------------------|
+| Small      | ~817                |
+| Medium     | ~782                |
+| Large      | ~779                |
+
+➡️ **Insight:** Smaller stores attract slightly more customers, but this does not translate into higher sales.
+
+---
+
+## 8. Efficiency – Sales per Customer
+| Store Size | Revenue per Customer |
+|------------|-------------------|
+| Medium     | ~57,000           |
+| Large      | ~16,000           |
+| Small      | ~10,000           |
+
+➡️ **Insight:** Medium stores are the most efficient, generating far more revenue per customer than other groups.
+
+---
+
+## 9. Key Takeaways
+- Sales are uneven across the store network.
+- Customer count is not a strong driver of revenue.
+- Medium stores strike the best balance of size, efficiency, and profitability.
+- Store area or inventory alone does not guarantee success.
+
+**Overall Insight:** Medium-sized stores consistently deliver the strongest performance, both in total sales and efficiency per customer.
