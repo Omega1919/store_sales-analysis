@@ -51,7 +51,9 @@ You can explore the full dashboard here:
 
 🔗 **Live Dashboard:** (https://lookerstudio.google.com/reporting/f055e05b-72e5-4a39-a8bb-0075bcdc4dd2)
 
-📄 **Project Report:** [Store Sales Analysis Report](Store_Sales.pdf)
+📄 **Project Overview:** [Store Sales Analysis dashboard](Store_Sales.pdf)
+
+📄 **Project Report:** [Store Sales Analysis Report](Report)
 
 ---
 
